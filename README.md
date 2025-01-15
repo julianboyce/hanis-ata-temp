@@ -53,7 +53,7 @@ Deployment Type:
 
 Short Description:
 
-Conversion of signals to trades (long, short, hold) and capital allocation
+Conversion of signals to trades (long, short, hold) and capital allocation with agent oversight
 
 Runtime Environment:
 
@@ -66,6 +66,10 @@ Language(s):
 Libraries/Frameworks:
 
 - ethers.js
+
+LLM Model:
+
+- gpt-4o-mini
 
 Local Testing:
 
