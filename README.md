@@ -7,6 +7,7 @@
 **Smart Contract support:**
 
 QuickswapV3: [https://polygonscan.com/address/0xf5b509bb0909a69b1c207e495f687a596c168e12](https://polygonscan.com/address/0xf5b509bb0909a69b1c207e495f687a596c168e12)
+
 AaveV3: [https://polygonscan.com/address/0x794a61358d6845594f94dc1db02a252b5b4814ad](https://polygonscan.com/address/0x794a61358d6845594f94dc1db02a252b5b4814ad)
 
 **Test Wallet (No longer in use):**
@@ -14,48 +15,112 @@ AaveV3: [https://polygonscan.com/address/0x794a61358d6845594f94dc1db02a252b5b481
 
 ## 1. OHLC data aggregation
 
-Short Description: Pricing data aggregation and persistence
+Short Description:
 
-Runtime Environment: The Graph
-Query Language(s): GraphQL
-Deployment Type: 3rd party API
+Pricing data aggregation and persistence
+
+Runtime Environment:
+
+The Graph
+
+- Query Language(s): GraphQL
+- Deployment Type: 3rd party API
 
 ## 2. Technical Analysis
 
-Short Description: Technical indicators (MACD, RSI, ATR, VWAP etc.) plus trading strategy calculations and signal generation (buy, sell, hold)
+Short Description:
 
-Runtime Environment: Python/Flask
-Language(s): Python3.10
-Libraries/Frameworks: Pandas, pandas-ta (Pandas Technical Analysis)
-Deployment Type: Dockerized Container (Google Cloud Platform)
+Technical indicators (MACD, RSI, ATR, VWAP etc.) plus trading strategy calculations and signal generation (buy, sell, hold)
+
+Runtime Environment:
+
+- Python/Flask
+
+Language(s):
+
+- Python3.10
+
+Libraries/Frameworks:
+
+- Pandas
+- pandas-ta (Pandas Technical Analysis)
+
+Deployment Type:
+
+- Dockerized Container (Google Cloud Platform)
 
 ## 3. Signal Handling
 
-Short Description: Conversion of signals to trades (long, short, hold) and capital allocation
+Short Description:
 
-Runtime Environment: Javascript/Node.js
-Language(s): Javascript
-Libraries/Frameworks: ethers.js
-Local Testing: Jest
-Deployment Type: Serverless (Google Cloud Platform)
+Conversion of signals to trades (long, short, hold) and capital allocation
+
+Runtime Environment:
+
+- Javascript/Node.js
+
+Language(s):
+
+- Javascript
+
+Libraries/Frameworks:
+
+- ethers.js
+
+Local Testing:
+
+- Jest
+
+Deployment Type:
+
+- Serverless (Google Cloud Platform)
 
 ## 4. Trading API
 
 Short Description: Crypto wallet management and on-chain smart contract communication
 
-Runtime Environment: Javascript/Node.js
-Language(s): Javascript
-Libraries/Frameworks: ethers.js
-Local Testing: Jest
-Deployment Type: Serverless (Google Cloud Platform)
-3rd Party RPC integration: Infura
+Runtime Environment:
+
+- Javascript/Node.js
+
+Language(s):
+
+- Javascript
+
+Libraries/Frameworks:
+
+- ethers.js
+
+Local Testing:
+
+- Jest
+
+Deployment Type:
+
+- Serverless (Google Cloud Platform)
+
+3rd Party RPC integration:
+
+- Infura
 
 ## 5. Backtesting
 
-Runtime Environment: Python/Flask
-Language(s): Python3.10
-Libraries/Frameworks: Pandas, pandas-ta (Pandas Technical Analysis)
-Deployment Type: Local instance
+Runtime Environment:
+
+- Python/Flask
+
+Language(s):
+
+- Python3.10
+
+Libraries/Frameworks:
+
+- Pandas
+- pandas-ta (Pandas Technical Analysis)
+
+Deployment Type:
+
+- Local instance
 
 ## Cloud Hosting
 
@@ -67,14 +132,11 @@ Google Cloud Platform
 
 ## Local Development Tools
 
-Hardhat
-
-Firebase CLI Tools
-
-Firebase Emulator
-
-nodemon
+- Hardhat
+- Firebase CLI Tools
+- Firebase Emulator
+- nodemon
 
 ## Code Repository
 
-github
+- github
